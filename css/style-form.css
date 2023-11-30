@@ -1,0 +1,125 @@
+
+*{
+    color: #f3f3f3;
+    
+}
+
+input, label {
+    display:block;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+input, option, select{
+    color: #737575;
+    border-radius: 0.3rem;
+    border: 0;
+    width: 100%;
+}
+
+input,select{
+    padding: 0.5rem;
+}
+
+textarea{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+label{
+    margin-bottom: 0.5rem;
+}
+
+
+label[for="tipo-personaje"]{
+    margin-top: 1rem;
+}
+
+
+
+main{
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.form-add{
+    background-color:  #00669F;
+    border-radius: 2rem;
+    padding: 3rem 6rem;
+}
+
+.form-add .btn{
+    width: 60%;
+    padding: 1rem;
+    font-size: 1.5em;
+    align-self: center;
+    color: #001D2D;
+    font-weight: bold;
+    background-color: #1CD1B0;
+}
+
+.form-titulo{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-titulo h1{
+    font-size: 2rem;
+}
+
+.form-add form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.form-row{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    gap: 2rem;
+}
+
+    .form-row p{
+        width: 50%;
+    }
+
+.esp-super{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    width: 50%;
+}
+
+    .option{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 0.5rem;
+    }
+
+
+    .option input{
+        width: 10%;
+    }
+
+    .option label{
+        margin-bottom: 0;
+    }
+
+    
+
+    
+
+
+
+    
+
+    

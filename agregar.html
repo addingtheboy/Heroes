@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-form.css">
+    <title>Agregar heroe </title>
+</head>
+
+<body>
+
+    <!--Cabecera-->
+    <header>
+        <!--Barra superior-->
+        <div class="barra-sup">
+            Descuentos 20%
+        </div>
+
+         <!--Titulo de la página-->
+        <div class="titulo-sup">
+            <h1>Heroes</h1>
+        </div>
+
+        <div class="barra-menu">
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="agregar.html">Nuevo super</a>
+            </nav>
+        </div>
+    </header>
+
+    <!--Area principal-->
+    <main>
+
+        <div class="form-add">
+            <div class="form-titulo">
+                <h1>Añadí tu super!</h1>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+            </div>
+            <form action="#" method="POST">
+            <div class="form-row">
+                <p>
+                    <label for="nombre">*Nombre</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </p>
+                <p>
+                    <label for="especie">*Especie</label>
+                    <select name="especie" id="especie" required>
+                        <option value="humano">Humano</option>
+                        <option value="extra">Extraterreste</option>
+                        <option value="mutante">Mutante</option>
+                    </select>
+                </p>
+            </div>
+            <div class="form-row">
+                <p>
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+                </p>
+                <p>
+                    <label for="foto">Agregar foto</label>
+                    <input type="file" name="foto" id="foto" accept=".png">
+                </p>
+            </div>
+            <div class="form-row">
+                <p>
+                    <textarea name="descripcion" id="descripcion"  placeholder="Descripcion"></textarea>
+                </p>
+                <div class="esp-super">
+                    <label for="poderes">Poderes</label>
+                    <div class="option">
+                        <label for="volar">Volar</label>
+                        <input type="checkbox" id="volar" name="poderes" value="volar">
+                    </div>
+                    <div class="option">
+                        <label for="inteligencia">Superinteligencia</label>
+                        <input type="checkbox" id="inteligencia" name="poderes" value="inteligencia">
+                    </div>
+                    <div class="option">
+                        <label for="rayo">Vista de rayo laser</label>
+                        <input type="checkbox" id="rayo" name="poderes" value="rayo">
+                    </div>
+                    <div class="option">
+                        <label for="plata">Billetera gorda</label>
+                        <input type="checkbox" id="plata" name="poderes" value="plata">
+                    </div>
+                    <label for="tipo-personaje">Tipo de personaje</label>
+                    <div class="option">
+                        <label for="hero">Heroe/Heroína</label>
+                        <input type="radio" name="tipo-personaje" id="hero" value="Heroe/Heroína">
+                    </div>
+                    <div class="option">
+                        <label for="villan">Villano/Villana</label>
+                        <input type="radio" name="tipo-personaje" id="villan" value="Villano/Villana">
+                    </div>
+                </p>
+            </div> 
+            </div>
+            
+            <input type="submit" value="Añadir" class="btn">
+
+        
+            </form>
+        </div>
+
+    </main>
+  <!--Pie de pagina-->   
+  <footer>
+    Todos los derechos reservados a TALLER DE DISEÑO WEB
+</footer>
+
+</body>
+</html>

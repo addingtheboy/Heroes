@@ -8,7 +8,7 @@
     outline:0;
     font-size: 16px;
     font-family: Roboto;
-    color: black;
+    color: #000e16;;
     text-decoration: none;
 }
 
@@ -34,6 +34,22 @@ header {
 .titulo-sup h1{
     font-size: 2rem;
     font-weight: 600;
+}
+
+.barra-menu{
+    background-color:#001D2D;
+    padding: 1rem 1.5rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: right;
+    align-content: flex-end;
+    gap: 1rem;
+}
+
+.menu a{
+    color:#f3f3f3;
 }
 
 main{
@@ -103,12 +119,12 @@ main{
 .card a{
     position: relative;
     background-color: #00669F;
-    color: white;
+    color: #f3f3f3;
     padding: 1rem 2rem ;
 }
 
 footer{
-    color: white;
+    color: #f3f3f3;
     background-color: #00669F;
     padding: 1rem;
     font-weight: 400;
